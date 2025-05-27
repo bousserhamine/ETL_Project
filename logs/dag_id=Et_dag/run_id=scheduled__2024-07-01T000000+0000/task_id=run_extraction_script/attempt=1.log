@@ -1,0 +1,34 @@
+[2025-05-07T10:40:30.663+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-07T10:40:30.777+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Et_dag.run_extraction_script scheduled__2024-07-01T00:00:00+00:00 [queued]>
+[2025-05-07T10:40:30.848+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Et_dag.run_extraction_script scheduled__2024-07-01T00:00:00+00:00 [queued]>
+[2025-05-07T10:40:30.850+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-05-07T10:40:31.116+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): run_extraction_script> on 2024-07-01 00:00:00+00:00
+[2025-05-07T10:40:31.130+0000] {standard_task_runner.py:72} INFO - Started process 21693 to run task
+[2025-05-07T10:40:31.176+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Et_dag', 'run_extraction_script', 'scheduled__2024-07-01T00:00:00+00:00', '--job-id', '754', '--raw', '--subdir', 'DAGS_FOLDER/ET_dag.py', '--cfg-path', '/tmp/tmp3b92o4uq']
+[2025-05-07T10:40:31.193+0000] {standard_task_runner.py:105} INFO - Job 754: Subtask run_extraction_script
+[2025-05-07T10:40:31.355+0000] {task_command.py:467} INFO - Running <TaskInstance: Et_dag.run_extraction_script scheduled__2024-07-01T00:00:00+00:00 [running]> on host 3d46136a9270
+[2025-05-07T10:40:31.641+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Et_dag' AIRFLOW_CTX_TASK_ID='run_extraction_script' AIRFLOW_CTX_EXECUTION_DATE='2024-07-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-01T00:00:00+00:00'
+[2025-05-07T10:40:31.644+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-07T10:40:31.694+0000] {logging_mixin.py:190} INFO - Exécution du script : /opt/***/Scripts/insert_excel_to_postgres2.py
+[2025-05-07T10:40:47.211+0000] {logging_mixin.py:190} INFO - Résultat du script /opt/***/Scripts/insert_excel_to_postgres2.py :
+[2025-05-07T10:40:47.233+0000] {logging_mixin.py:190} INFO - Exécution du script : /opt/***/Scripts/Store_CTX.py
+[2025-05-07T10:40:53.017+0000] {logging_mixin.py:190} INFO - Résultat du script /opt/***/Scripts/Store_CTX.py :
+[2025-05-07T10:40:53.018+0000] {logging_mixin.py:190} INFO - Data successfully loaded into PostgreSQL table 'CTX'
+[2025-05-07T10:40:53.019+0000] {logging_mixin.py:190} INFO - Exécution du script : /opt/***/Scripts/Store_pcx.py
+[2025-05-07T10:40:59.334+0000] {logging_mixin.py:190} INFO - Résultat du script /opt/***/Scripts/Store_pcx.py :
+[2025-05-07T10:40:59.335+0000] {logging_mixin.py:190} INFO - Data successfully loaded into PostgreSQL table 'Flag_PCX'
+[2025-05-07T10:40:59.336+0000] {logging_mixin.py:190} INFO - Exécution du script : /opt/***/Scripts/Store_Sinister.py
+[2025-05-07T10:41:05.924+0000] {logging_mixin.py:190} INFO - Résultat du script /opt/***/Scripts/Store_Sinister.py :
+[2025-05-07T10:41:05.925+0000] {logging_mixin.py:190} INFO - Data successfully loaded into PostgreSQL table 'Siniste'
+[2025-05-07T10:41:05.926+0000] {logging_mixin.py:190} INFO - Exécution du script : /opt/***/Scripts/Store_Sogeconso.py
+[2025-05-07T10:41:12.805+0000] {logging_mixin.py:190} INFO - Résultat du script /opt/***/Scripts/Store_Sogeconso.py :
+[2025-05-07T10:41:12.807+0000] {logging_mixin.py:190} INFO - Data successfully loaded into PostgreSQL table 'Sogeconso'
+[2025-05-07T10:41:12.808+0000] {logging_mixin.py:190} INFO - Exécution du script : /opt/***/Scripts/Store_SPP.py
+[2025-05-07T10:41:22.964+0000] {logging_mixin.py:190} INFO - Résultat du script /opt/***/Scripts/Store_SPP.py :
+[2025-05-07T10:41:22.965+0000] {logging_mixin.py:190} INFO - Data successfully loaded into PostgreSQL table 'SPP'
+[2025-05-07T10:41:22.970+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-07T10:41:23.566+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-07T10:41:23.572+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=Et_dag, task_id=run_extraction_script, run_id=scheduled__2024-07-01T00:00:00+00:00, execution_date=20240701T000000, start_date=20250507T104030, end_date=20250507T104123
+[2025-05-07T10:41:24.223+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-07T10:41:24.527+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-07T10:41:24.535+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

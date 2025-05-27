@@ -1,0 +1,385 @@
+[2025-04-27T20:49:43.394+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:49:43.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:49:43.428+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:49:43.427+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:49:43.539+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:49:43.612+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:49:43.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:49:43.755+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:49:43.755+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:49:43.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.452 seconds
+[2025-04-27T20:50:13.889+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:50:13.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:50:13.893+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:50:13.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:50:13.910+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:50:13.941+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:50:13.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:50:13.967+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:50:13.967+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:50:13.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.105 seconds
+[2025-04-27T20:50:44.734+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:50:44.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:50:44.777+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:50:44.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:50:44.854+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:50:44.956+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:50:44.956+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:50:45.102+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:50:45.101+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:50:45.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.465 seconds
+[2025-04-27T20:51:15.216+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:51:15.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:51:15.220+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:51:15.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:51:15.238+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:51:15.264+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:51:15.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:51:15.289+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:51:15.289+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:51:15.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.098 seconds
+[2025-04-27T20:51:46.268+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:51:46.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:51:46.281+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:51:46.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:51:46.437+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:51:46.508+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:51:46.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:51:46.581+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:51:46.580+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:51:46.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.397 seconds
+[2025-04-27T20:52:16.770+0000] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:52:16.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:52:16.774+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:52:16.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:52:16.795+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:52:16.829+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:52:16.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:52:16.860+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:52:16.860+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:52:16.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.125 seconds
+[2025-04-27T20:52:47.303+0000] {processor.py:186} INFO - Started process (PID=396) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:52:47.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:52:47.307+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:52:47.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:52:47.335+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:52:47.376+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:52:47.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:52:47.412+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:52:47.412+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:52:47.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.143 seconds
+[2025-04-27T20:53:18.268+0000] {processor.py:186} INFO - Started process (PID=427) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:53:18.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:53:18.271+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:53:18.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:53:18.294+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:53:18.320+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:53:18.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:53:18.346+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:53:18.346+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:53:18.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.109 seconds
+[2025-04-27T20:53:48.696+0000] {processor.py:186} INFO - Started process (PID=458) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:53:48.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:53:48.702+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:53:48.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:53:48.729+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:53:48.766+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:53:48.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:53:48.796+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:53:48.796+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:53:48.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.136 seconds
+[2025-04-27T20:54:19.393+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:54:19.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:54:19.396+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:54:19.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:54:19.412+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:54:19.437+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:54:19.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:54:19.463+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:54:19.463+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:54:19.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.097 seconds
+[2025-04-27T20:54:50.193+0000] {processor.py:186} INFO - Started process (PID=520) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:54:50.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:54:50.198+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:54:50.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:54:50.227+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:54:50.270+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:54:50.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:54:50.315+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:54:50.315+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:54:50.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.158 seconds
+[2025-04-27T20:55:21.016+0000] {processor.py:186} INFO - Started process (PID=551) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:55:21.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:55:21.020+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:55:21.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:55:21.041+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:55:21.074+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:55:21.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:55:21.110+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:55:21.110+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:55:21.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.124 seconds
+[2025-04-27T20:55:51.829+0000] {processor.py:186} INFO - Started process (PID=582) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:55:51.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:55:51.832+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:55:51.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:55:51.853+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:55:51.883+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:55:51.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:55:51.921+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:55:51.921+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:55:51.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.140 seconds
+[2025-04-27T20:56:22.571+0000] {processor.py:186} INFO - Started process (PID=613) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:56:22.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:56:22.576+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:56:22.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:56:22.606+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:56:22.649+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:56:22.649+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:56:22.696+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:56:22.695+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:56:22.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.168 seconds
+[2025-04-27T20:56:53.282+0000] {processor.py:186} INFO - Started process (PID=644) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:56:53.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:56:53.284+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:56:53.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:56:53.304+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:56:53.337+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:56:53.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:56:53.367+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:56:53.366+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:56:53.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.123 seconds
+[2025-04-27T20:57:23.997+0000] {processor.py:186} INFO - Started process (PID=675) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:57:23.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:57:24.001+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:57:24.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:57:24.025+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:57:24.057+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:57:24.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:57:24.087+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:57:24.087+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:57:24.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.129 seconds
+[2025-04-27T20:57:54.690+0000] {processor.py:186} INFO - Started process (PID=706) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:57:54.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:57:54.700+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:57:54.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:57:54.716+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:57:54.741+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:57:54.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:57:54.768+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:57:54.768+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:57:54.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.105 seconds
+[2025-04-27T20:58:25.459+0000] {processor.py:186} INFO - Started process (PID=737) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:58:25.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:58:25.464+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:58:25.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:58:25.492+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:58:25.528+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:58:25.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:58:25.566+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:58:25.565+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:58:25.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.146 seconds
+[2025-04-27T20:58:55.680+0000] {processor.py:186} INFO - Started process (PID=773) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:58:55.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:58:55.683+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:58:55.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:58:55.703+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:58:55.730+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:58:55.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:58:55.755+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:58:55.755+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:58:55.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.110 seconds
+[2025-04-27T20:59:26.404+0000] {processor.py:186} INFO - Started process (PID=799) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:59:26.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:59:26.412+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:59:26.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:59:26.458+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:59:26.499+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:59:26.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:59:26.530+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:59:26.530+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:59:26.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.158 seconds
+[2025-04-27T20:59:57.066+0000] {processor.py:186} INFO - Started process (PID=830) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:59:57.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T20:59:57.071+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:59:57.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:59:57.096+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T20:59:57.127+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:59:57.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T20:59:57.155+0000] {logging_mixin.py:190} INFO - [2025-04-27T20:59:57.154+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T20:59:57.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.118 seconds
+[2025-04-27T21:00:27.754+0000] {processor.py:186} INFO - Started process (PID=861) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:00:27.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:00:27.757+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:00:27.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:00:27.776+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:00:27.800+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:00:27.799+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:00:27.826+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:00:27.826+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:00:27.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.097 seconds
+[2025-04-27T21:00:58.413+0000] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:00:58.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:00:58.417+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:00:58.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:00:58.444+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:00:58.473+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:00:58.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:00:58.501+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:00:58.501+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:00:58.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.123 seconds
+[2025-04-27T21:01:29.342+0000] {processor.py:186} INFO - Started process (PID=923) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:01:29.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:01:29.346+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:01:29.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:01:29.394+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:01:29.435+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:01:29.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:01:29.476+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:01:29.476+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:01:29.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.162 seconds
+[2025-04-27T21:02:00.068+0000] {processor.py:186} INFO - Started process (PID=954) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:02:00.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:02:00.072+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:02:00.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:02:00.096+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:02:00.124+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:02:00.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:02:00.154+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:02:00.154+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:02:00.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.115 seconds
+[2025-04-27T21:02:30.707+0000] {processor.py:186} INFO - Started process (PID=985) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:02:30.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:02:30.711+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:02:30.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:02:30.732+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:02:30.766+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:02:30.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:02:30.797+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:02:30.796+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:02:30.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.119 seconds
+[2025-04-27T21:03:01.523+0000] {processor.py:186} INFO - Started process (PID=1016) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:03:01.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:03:01.533+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:03:01.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:03:01.592+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:03:01.651+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:03:01.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:03:01.711+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:03:01.711+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:03:01.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.256 seconds
+[2025-04-27T21:03:32.268+0000] {processor.py:186} INFO - Started process (PID=1047) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:03:32.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:03:32.272+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:03:32.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:03:32.290+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:03:32.322+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:03:32.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:03:32.361+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:03:32.360+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:03:32.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.121 seconds
+[2025-04-27T21:04:02.968+0000] {processor.py:186} INFO - Started process (PID=1078) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:04:02.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:04:02.975+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:04:02.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:04:03.032+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:04:03.108+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:04:03.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:04:03.168+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:04:03.168+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:04:03.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.261 seconds
+[2025-04-27T21:04:33.734+0000] {processor.py:186} INFO - Started process (PID=1109) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:04:33.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:04:33.737+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:04:33.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:04:33.762+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:04:33.797+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:04:33.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:04:33.831+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:04:33.831+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:04:33.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.128 seconds
+[2025-04-27T21:05:04.467+0000] {processor.py:186} INFO - Started process (PID=1140) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:05:04.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:05:04.473+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:05:04.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:05:04.503+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:05:04.533+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:05:04.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:05:04.560+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:05:04.560+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:05:04.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.130 seconds
+[2025-04-27T21:05:35.133+0000] {processor.py:186} INFO - Started process (PID=1171) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:05:35.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:05:35.136+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:05:35.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:05:35.157+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:05:35.186+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:05:35.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:05:35.221+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:05:35.221+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:05:35.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.114 seconds
+[2025-04-27T21:06:05.864+0000] {processor.py:186} INFO - Started process (PID=1202) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:06:05.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:06:05.871+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:06:05.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:06:05.895+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:06:05.927+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:06:05.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:06:05.961+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:06:05.961+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:06:05.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.125 seconds
+[2025-04-27T21:06:36.526+0000] {processor.py:186} INFO - Started process (PID=1233) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:06:36.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:06:36.531+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:06:36.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:06:36.556+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:06:36.588+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:06:36.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:06:36.620+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:06:36.620+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:06:36.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.129 seconds
+[2025-04-27T21:07:07.243+0000] {processor.py:186} INFO - Started process (PID=1264) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:07:07.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:07:07.255+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:07:07.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:07:07.282+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:07:07.329+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:07:07.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:07:07.355+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:07:07.355+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:07:07.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.138 seconds
+[2025-04-27T21:07:38.000+0000] {processor.py:186} INFO - Started process (PID=1295) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:07:38.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:07:38.003+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:07:38.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:07:38.023+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:07:38.049+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:07:38.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:07:38.075+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:07:38.074+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:07:38.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.103 seconds
+[2025-04-27T21:08:08.820+0000] {processor.py:186} INFO - Started process (PID=1326) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:08:08.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:08:08.823+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:08:08.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:08:08.842+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:08:08.868+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:08:08.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:08:08.893+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:08:08.892+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:08:08.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.099 seconds
+[2025-04-27T21:08:39.589+0000] {processor.py:186} INFO - Started process (PID=1357) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:08:39.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:08:39.593+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:08:39.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:08:39.623+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:08:39.652+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:08:39.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:08:39.682+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:08:39.682+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:08:39.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.123 seconds
+[2025-04-27T21:09:10.392+0000] {processor.py:186} INFO - Started process (PID=1388) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:09:10.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:09:10.395+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:09:10.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:09:10.415+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:09:10.443+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:09:10.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:09:10.472+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:09:10.472+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:09:10.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.107 seconds
+[2025-04-27T21:09:41.102+0000] {processor.py:186} INFO - Started process (PID=1418) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:09:41.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:09:41.105+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:09:41.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:09:41.121+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:09:41.149+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:09:41.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:09:41.181+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:09:41.181+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:09:41.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.106 seconds
+[2025-04-27T21:10:11.899+0000] {processor.py:186} INFO - Started process (PID=1449) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:10:11.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:10:11.902+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:10:11.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:10:11.920+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:10:11.945+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:10:11.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:10:11.973+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:10:11.972+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:10:11.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.101 seconds
+[2025-04-27T21:10:42.655+0000] {processor.py:186} INFO - Started process (PID=1480) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:10:42.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:10:42.659+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:10:42.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:10:42.691+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:10:42.728+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:10:42.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:10:42.774+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:10:42.774+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:10:42.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.169 seconds
+[2025-04-27T21:11:13.409+0000] {processor.py:186} INFO - Started process (PID=1510) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:11:13.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:11:13.414+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:11:13.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:11:13.444+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:11:13.482+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:11:13.482+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:11:13.519+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:11:13.519+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:11:13.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.192 seconds
+[2025-04-27T21:11:44.118+0000] {processor.py:186} INFO - Started process (PID=1541) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:11:44.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:11:44.123+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:11:44.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:11:44.168+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:11:44.212+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:11:44.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:11:44.251+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:11:44.251+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:11:44.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.163 seconds
+[2025-04-27T21:12:14.830+0000] {processor.py:186} INFO - Started process (PID=1572) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:12:14.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:12:14.834+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:12:14.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:12:14.855+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:12:14.883+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:12:14.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:12:14.914+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:12:14.913+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:12:14.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.111 seconds
+[2025-04-27T21:12:45.600+0000] {processor.py:186} INFO - Started process (PID=1609) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:12:45.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:12:45.607+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:12:45.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:12:45.634+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:12:45.679+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:12:45.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:12:45.720+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:12:45.720+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:12:45.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.170 seconds
+[2025-04-27T21:13:16.319+0000] {processor.py:186} INFO - Started process (PID=1641) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:13:16.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:13:16.322+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:13:16.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:13:16.341+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:13:16.370+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:13:16.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:13:16.399+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:13:16.399+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:13:16.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.107 seconds
+[2025-04-27T21:13:47.070+0000] {processor.py:186} INFO - Started process (PID=1672) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:13:47.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:13:47.074+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:13:47.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:13:47.099+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:13:47.141+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:13:47.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:13:47.174+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:13:47.173+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:13:47.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.137 seconds
+[2025-04-27T21:14:17.758+0000] {processor.py:186} INFO - Started process (PID=1703) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:14:17.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:14:17.761+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:14:17.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:14:17.785+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:14:17.822+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:14:17.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:14:17.852+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:14:17.852+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:14:17.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.120 seconds
+[2025-04-27T21:14:48.445+0000] {processor.py:186} INFO - Started process (PID=1734) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:14:48.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:14:48.449+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:14:48.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:14:48.494+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:14:48.527+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:14:48.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:14:48.553+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:14:48.553+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:14:48.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.140 seconds
+[2025-04-27T21:15:19.167+0000] {processor.py:186} INFO - Started process (PID=1764) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:15:19.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:15:19.171+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:15:19.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:15:19.194+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:15:19.225+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:15:19.224+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:15:19.257+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:15:19.256+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:15:19.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.117 seconds
+[2025-04-27T21:15:50.434+0000] {processor.py:186} INFO - Started process (PID=1799) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:15:50.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:15:50.451+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:15:50.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:15:50.987+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:15:51.081+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:15:51.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:15:51.245+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:15:51.245+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:15:51.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.915 seconds
+[2025-04-27T21:16:21.482+0000] {processor.py:186} INFO - Started process (PID=1832) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:16:21.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:16:21.486+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:16:21.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:16:21.510+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:16:21.539+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:16:21.538+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:16:21.568+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:16:21.568+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:16:21.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.116 seconds
+[2025-04-27T21:16:52.123+0000] {processor.py:186} INFO - Started process (PID=1858) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:16:52.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:16:52.126+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:16:52.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:16:52.144+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:16:52.168+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:16:52.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:16:52.196+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:16:52.196+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:16:52.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.100 seconds
+[2025-04-27T21:17:23.032+0000] {processor.py:186} INFO - Started process (PID=1890) to work on /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:17:23.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/detect_and_extract_dag.py for tasks to queue
+[2025-04-27T21:17:23.034+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:17:23.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:17:23.052+0000] {processor.py:925} INFO - DAG(s) 'detect_and_extract_dag' retrieved from /opt/airflow/dags/detect_and_extract_dag.py
+[2025-04-27T21:17:23.087+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:17:23.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-27T21:17:23.112+0000] {logging_mixin.py:190} INFO - [2025-04-27T21:17:23.112+0000] {dag.py:4180} INFO - Setting next_dagrun for detect_and_extract_dag to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-04-27T21:17:23.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/detect_and_extract_dag.py took 0.108 seconds

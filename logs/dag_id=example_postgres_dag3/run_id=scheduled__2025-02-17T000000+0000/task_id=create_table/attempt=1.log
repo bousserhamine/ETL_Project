@@ -1,0 +1,37 @@
+[2025-04-15T09:26:34.219+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-15T09:26:34.260+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_postgres_dag3.create_table scheduled__2025-02-17T00:00:00+00:00 [queued]>
+[2025-04-15T09:26:34.280+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_postgres_dag3.create_table scheduled__2025-02-17T00:00:00+00:00 [queued]>
+[2025-04-15T09:26:34.281+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-15T09:26:34.333+0000] {taskinstance.py:2890} INFO - Executing <Task(PostgresOperator): create_table> on 2025-02-17 00:00:00+00:00
+[2025-04-15T09:26:34.346+0000] {standard_task_runner.py:72} INFO - Started process 3932 to run task
+[2025-04-15T09:26:34.352+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'example_postgres_dag3', 'create_table', 'scheduled__2025-02-17T00:00:00+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/dag_postgreSql.py', '--cfg-path', '/tmp/tmpc_nm4fwv']
+[2025-04-15T09:26:34.358+0000] {standard_task_runner.py:105} INFO - Job 215: Subtask create_table
+[2025-04-15T09:26:34.463+0000] {task_command.py:467} INFO - Running <TaskInstance: example_postgres_dag3.create_table scheduled__2025-02-17T00:00:00+00:00 [running]> on host d7d36d5d8c2d
+[2025-04-15T09:26:34.666+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_postgres_dag3' AIRFLOW_CTX_TASK_ID='create_table' AIRFLOW_CTX_EXECUTION_DATE='2025-02-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-17T00:00:00+00:00'
+[2025-04-15T09:26:34.669+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-15T09:26:34.707+0000] {sql.py:295} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS example_table (
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            );
+        
+[2025-04-15T09:26:34.726+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2025-04-15T09:26:34.742+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2025-04-15T09:26:34.743+0000] {sql.py:186} WARNING - This setter is for backward compatibility and should not be used.
+Since the introduction of connection property, the providers listed below breaks due to assigning value to self.connection in their __init__ method.
+* apache-***-providers-mysql<5.7.1
+* apache-***-providers-elasticsearch<5.5.1
+* apache-***-providers-postgres<5.13.0
+[2025-04-15T09:26:34.759+0000] {sql.py:511} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS example_table (
+                dt date,
+                dag_id character varying,
+                primary key (dt, dag_id)
+            );
+        , parameters: None
+[2025-04-15T09:26:34.782+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-15T09:26:34.783+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=example_postgres_dag3, task_id=create_table, run_id=scheduled__2025-02-17T00:00:00+00:00, execution_date=20250217T000000, start_date=20250415T092634, end_date=20250415T092634
+[2025-04-15T09:26:34.858+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-15T09:26:34.878+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-15T09:26:34.880+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

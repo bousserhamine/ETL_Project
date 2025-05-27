@@ -1,0 +1,23 @@
+name: 'etl_dbt_project'
+version: '1.0.0'
+
+profile: 'etl_dbt_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  etl_dbt_project:
+    +materialized: table  # Apply this config to all models unless overridden
+
+seeds:
+  etl_dbt_project:  
+    encoding: utf-8

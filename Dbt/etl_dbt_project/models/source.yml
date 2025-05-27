@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: airflow              # ← schema name in your database
+    database: airflow          # ← database name (can be optional if set in profile)
+    tables:
+      - name: client_data_1 
+      - name: ctx
+      - name: flag_pcx
+      - name: siniste
+      - name: sogeconso
+      - name: spp
+      - name: new_base
+      - name: base
+      - name: Brigade_M_1
+      - name: DVR
+      - name: phonning_m-1
+        # ← actual table name in Postgres

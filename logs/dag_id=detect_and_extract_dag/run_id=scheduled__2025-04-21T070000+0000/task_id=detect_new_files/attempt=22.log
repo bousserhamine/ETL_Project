@@ -1,0 +1,18 @@
+[2025-04-21T09:48:07.834+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T09:48:07.872+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: detect_and_extract_dag.detect_new_files scheduled__2025-04-21T07:00:00+00:00 [queued]>
+[2025-04-21T09:48:07.888+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: detect_and_extract_dag.detect_new_files scheduled__2025-04-21T07:00:00+00:00 [queued]>
+[2025-04-21T09:48:07.889+0000] {taskinstance.py:2867} INFO - Starting attempt 22 of 24
+[2025-04-21T09:48:07.919+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): detect_new_files> on 2025-04-21 07:00:00+00:00
+[2025-04-21T09:48:07.928+0000] {standard_task_runner.py:72} INFO - Started process 483 to run task
+[2025-04-21T09:48:07.937+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'detect_and_extract_dag', 'detect_new_files', 'scheduled__2025-04-21T07:00:00+00:00', '--job-id', '605', '--raw', '--subdir', 'DAGS_FOLDER/detect_and_extract_dag.py', '--cfg-path', '/tmp/tmpyp29vckp']
+[2025-04-21T09:48:07.947+0000] {standard_task_runner.py:105} INFO - Job 605: Subtask detect_new_files
+[2025-04-21T09:48:08.108+0000] {task_command.py:467} INFO - Running <TaskInstance: detect_and_extract_dag.detect_new_files scheduled__2025-04-21T07:00:00+00:00 [running]> on host eb078951aedc
+[2025-04-21T09:48:08.930+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='detect_and_extract_dag' AIRFLOW_CTX_TASK_ID='detect_new_files' AIRFLOW_CTX_EXECUTION_DATE='2025-04-21T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='22' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-21T07:00:00+00:00'
+[2025-04-21T09:48:08.956+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-21T09:48:09.130+0000] {logging_mixin.py:190} INFO - Aucun nouveau fichier détecté.
+[2025-04-21T09:48:09.133+0000] {python.py:240} INFO - Done. Returned value was: False
+[2025-04-21T09:48:09.241+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-21T09:48:09.242+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=detect_and_extract_dag, task_id=detect_new_files, run_id=scheduled__2025-04-21T07:00:00+00:00, execution_date=20250421T070000, start_date=20250421T094807, end_date=20250421T094809
+[2025-04-21T09:48:09.389+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T09:48:09.426+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T09:48:09.430+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

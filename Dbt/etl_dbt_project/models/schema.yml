@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: Full_Transformation
+    description: Final transformed data model combining multiple services
+    columns:
+      - name: csp_prd
+        tests:
+          - accepted_values:
+              values: ["EMPHF", "Auto_LOA", "Auto_CLASS", "OPB_DISPO", "FONCT", "EMPEF", "Sogeconso"]
+
+      - name: ctx
+        tests:
+          - accepted_values:
+              values: ["CTX",""]
+
+      - name: flag_pcx
+        tests:
+          - accepted_values:
+              values: ["PCX",""]
+
+      - name: flag_reechelonnement
+        tests:
+          - accepted_values:
+              values: ["Oui",""]
+
+      - name: spp
+        tests:
+          - accepted_values:
+              values: ["SPP",""]
+
+      - name: segment
+        tests:
+          - not_null: {}
+          - accepted_values:
+              values: ["PM", "PP", "EMPHF", "FONCT", "OPB_DISPO", "EMPEF", "Sogeconso"]
+
+      - name: sinistre
+        tests:
+          - accepted_values:
+              values: ["Sinistre",""]
+
+      - name: verif_bagatelle
+        tests:
+          - accepted_values:
+              values: ["Bagatelle", "IMP"]

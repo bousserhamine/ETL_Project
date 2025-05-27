@@ -1,0 +1,54 @@
+[0m10:21:58.608310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57EB8BC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57EF882C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57EB8A6C0>]}
+
+
+============================== 10:21:58.614326 | d4797424-cef3-47a7-b8bb-9bfb4ba98a7c ==============================
+[0m10:21:58.614326 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:21:58.614326 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --profiles-dir .', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:58.614326 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\dell\Airflow_Docker\Airflow\Dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:21:58.614326 [debug] [MainThread]: Command `dbt run` failed at 10:21:58.614326 after 0.42 seconds
+[0m10:21:58.614326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57EB8A6C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57E9B44A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57F05DAF0>]}
+[0m10:21:58.614326 [debug] [MainThread]: Flushing usage events
+[0m10:21:59.837843 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:52:38.350909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121a8095e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1219c96960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121a2eeb40>]}
+
+
+============================== 14:52:38.416068 | c58eeea5-923f-487b-a6a3-7a5ce63a5fed ==============================
+[0m14:52:38.416068 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:52:38.740520 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '.', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug --profiles-dir .', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:52:39.686348 [info ] [MainThread]: dbt version: 1.8.7
+[0m14:52:39.866013 [info ] [MainThread]: python version: 3.12.9
+[0m14:52:39.873237 [info ] [MainThread]: python path: /home/airflow/.local/bin/python
+[0m14:52:39.876499 [info ] [MainThread]: os info: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[0m14:52:39.879557 [info ] [MainThread]: Using profiles dir at .
+[0m14:52:39.881402 [info ] [MainThread]: Using profiles.yml file at ./profiles.yml
+[0m14:52:39.882634 [info ] [MainThread]: Using dbt_project.yml file at /opt/airflow/Dbt/dbt_project.yml
+[0m14:52:39.884629 [info ] [MainThread]: Configuration:
+[0m14:52:39.886248 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m14:52:39.887408 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:52:40.298508 [info ] [MainThread]: Required dependencies:
+[0m14:52:40.301045 [debug] [MainThread]: Executing "git --help"
+[0m14:52:40.320481 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:52:40.323292 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:52:40.715236 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m14:52:40.718450 [info ] [MainThread]: dbt looked for a profiles.yml file in ./profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:52:40.720400 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </opt/airflow/Dbt/dbt_project.yml> not found
+
+[0m14:52:40.722089 [info ] [MainThread]: Error from git --help: User does not have permissions for this command: "git"
+
+[0m14:52:40.727994 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 9.35732, "process_user_time": 69.73321, "process_kernel_time": 46.32048, "process_mem_max_rss": "102616", "process_in_blocks": "9360", "process_out_blocks": "2200", "command_success": false}
+[0m14:52:40.732205 [debug] [MainThread]: Command `dbt debug` failed at 14:52:40.731878 after 9.36 seconds
+[0m14:52:40.734190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1219c275f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121de531d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121b345af0>]}
+[0m14:52:40.736042 [debug] [MainThread]: Flushing usage events
+[0m14:52:51.656604 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
