@@ -1,0 +1,62 @@
+[2025-05-28T14:32:13.840+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-28T14:32:13.870+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Etl_dag.dbt_seed_all scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-28T14:32:13.885+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Etl_dag.dbt_seed_all scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-28T14:32:13.886+0000] {taskinstance.py:2867} INFO - Starting attempt 4 of 5
+[2025-05-28T14:32:13.904+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): dbt_seed_all> on 2024-04-21 00:00:00+00:00
+[2025-05-28T14:32:13.909+0000] {standard_task_runner.py:72} INFO - Started process 9296 to run task
+[2025-05-28T14:32:13.913+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Etl_dag', 'dbt_seed_all', 'scheduled__2024-04-21T00:00:00+00:00', '--job-id', '865', '--raw', '--subdir', 'DAGS_FOLDER/ETL_dag.py', '--cfg-path', '/tmp/tmp5ju383bu']
+[2025-05-28T14:32:13.917+0000] {standard_task_runner.py:105} INFO - Job 865: Subtask dbt_seed_all
+[2025-05-28T14:32:13.979+0000] {task_command.py:467} INFO - Running <TaskInstance: Etl_dag.dbt_seed_all scheduled__2024-04-21T00:00:00+00:00 [running]> on host fa768165d3f1
+[2025-05-28T14:32:14.132+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Etl_dag' AIRFLOW_CTX_TASK_ID='dbt_seed_all' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-21T00:00:00+00:00'
+[2025-05-28T14:32:14.134+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-28T14:32:14.157+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-05-28T14:32:14.177+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '\n        cd /opt/***/Dbt/etl_dbt_project &&         dbt seed --select Brigade_M_1 &&         dbt seed --select DVR &&         dbt seed --select phonning_m-1 \n    \n        ']
+[2025-05-28T14:32:14.192+0000] {subprocess.py:99} INFO - Output:
+[2025-05-28T14:32:23.331+0000] {subprocess.py:106} INFO - [0m14:32:23  Running with dbt=1.8.7
+[2025-05-28T14:32:24.393+0000] {subprocess.py:106} INFO - [0m14:32:24  Registered adapter: postgres=1.9.0
+[2025-05-28T14:32:28.442+0000] {subprocess.py:106} INFO - [0m14:32:28  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-05-28T14:32:28.448+0000] {subprocess.py:106} INFO - [0m14:32:28
+[2025-05-28T14:32:28.685+0000] {subprocess.py:106} INFO - [0m14:32:28  Concurrency: 1 threads (target='dev')
+[2025-05-28T14:32:28.687+0000] {subprocess.py:106} INFO - [0m14:32:28
+[2025-05-28T14:32:28.704+0000] {subprocess.py:106} INFO - [0m14:32:28  1 of 1 START seed file ***.Brigade_M_1 ..................................... [RUN]
+[2025-05-28T14:32:29.124+0000] {subprocess.py:106} INFO - [0m14:32:29  1 of 1 OK loaded seed file ***.Brigade_M_1 ................................. [[32mINSERT 16[0m in 0.42s]
+[2025-05-28T14:32:29.144+0000] {subprocess.py:106} INFO - [0m14:32:29
+[2025-05-28T14:32:29.145+0000] {subprocess.py:106} INFO - [0m14:32:29  Finished running 1 seed in 0 hours 0 minutes and 0.69 seconds (0.69s).
+[2025-05-28T14:32:29.235+0000] {subprocess.py:106} INFO - [0m14:32:29
+[2025-05-28T14:32:29.236+0000] {subprocess.py:106} INFO - [0m14:32:29  [32mCompleted successfully[0m
+[2025-05-28T14:32:29.237+0000] {subprocess.py:106} INFO - [0m14:32:29
+[2025-05-28T14:32:29.238+0000] {subprocess.py:106} INFO - [0m14:32:29  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-05-28T14:32:34.539+0000] {subprocess.py:106} INFO - [0m14:32:34  Running with dbt=1.8.7
+[2025-05-28T14:32:35.088+0000] {subprocess.py:106} INFO - [0m14:32:35  Registered adapter: postgres=1.9.0
+[2025-05-28T14:32:37.534+0000] {subprocess.py:106} INFO - [0m14:32:37  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-05-28T14:32:37.538+0000] {subprocess.py:106} INFO - [0m14:32:37
+[2025-05-28T14:32:37.682+0000] {subprocess.py:106} INFO - [0m14:32:37  Concurrency: 1 threads (target='dev')
+[2025-05-28T14:32:37.683+0000] {subprocess.py:106} INFO - [0m14:32:37
+[2025-05-28T14:32:37.704+0000] {subprocess.py:106} INFO - [0m14:32:37  1 of 1 START seed file ***.DVR ............................................. [RUN]
+[2025-05-28T14:32:37.878+0000] {subprocess.py:106} INFO - [0m14:32:37  1 of 1 OK loaded seed file ***.DVR ......................................... [[32mINSERT 28[0m in 0.17s]
+[2025-05-28T14:32:37.897+0000] {subprocess.py:106} INFO - [0m14:32:37
+[2025-05-28T14:32:37.899+0000] {subprocess.py:106} INFO - [0m14:32:37  Finished running 1 seed in 0 hours 0 minutes and 0.36 seconds (0.36s).
+[2025-05-28T14:32:37.985+0000] {subprocess.py:106} INFO - [0m14:32:37
+[2025-05-28T14:32:37.986+0000] {subprocess.py:106} INFO - [0m14:32:37  [32mCompleted successfully[0m
+[2025-05-28T14:32:37.987+0000] {subprocess.py:106} INFO - [0m14:32:37
+[2025-05-28T14:32:37.988+0000] {subprocess.py:106} INFO - [0m14:32:37  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-05-28T14:32:41.575+0000] {subprocess.py:106} INFO - [0m14:32:41  Running with dbt=1.8.7
+[2025-05-28T14:32:42.219+0000] {subprocess.py:106} INFO - [0m14:32:42  Registered adapter: postgres=1.9.0
+[2025-05-28T14:32:44.197+0000] {subprocess.py:106} INFO - [0m14:32:44  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-05-28T14:32:44.202+0000] {subprocess.py:106} INFO - [0m14:32:44
+[2025-05-28T14:32:44.357+0000] {subprocess.py:106} INFO - [0m14:32:44  Concurrency: 1 threads (target='dev')
+[2025-05-28T14:32:44.358+0000] {subprocess.py:106} INFO - [0m14:32:44
+[2025-05-28T14:32:44.373+0000] {subprocess.py:106} INFO - [0m14:32:44  1 of 1 START seed file ***.phonning_m-1 .................................... [RUN]
+[2025-05-28T14:32:48.728+0000] {subprocess.py:106} INFO - [0m14:32:48  1 of 1 OK loaded seed file ***.phonning_m-1 ................................ [[32mINSERT 234[0m in 4.35s]
+[2025-05-28T14:32:48.753+0000] {subprocess.py:106} INFO - [0m14:32:48
+[2025-05-28T14:32:48.754+0000] {subprocess.py:106} INFO - [0m14:32:48  Finished running 1 seed in 0 hours 0 minutes and 4.55 seconds (4.55s).
+[2025-05-28T14:32:48.854+0000] {subprocess.py:106} INFO - [0m14:32:48
+[2025-05-28T14:32:48.855+0000] {subprocess.py:106} INFO - [0m14:32:48  [32mCompleted successfully[0m
+[2025-05-28T14:32:48.856+0000] {subprocess.py:106} INFO - [0m14:32:48
+[2025-05-28T14:32:48.857+0000] {subprocess.py:106} INFO - [0m14:32:48  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-05-28T14:32:49.701+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-05-28T14:32:49.953+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-28T14:32:49.960+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=Etl_dag, task_id=dbt_seed_all, run_id=scheduled__2024-04-21T00:00:00+00:00, execution_date=20240421T000000, start_date=20250528T143213, end_date=20250528T143249
+[2025-05-28T14:32:50.087+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-28T14:32:50.259+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-28T14:32:50.262+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

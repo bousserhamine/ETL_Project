@@ -1,0 +1,36 @@
+[2025-05-07T11:28:14.942+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-07T11:28:14.967+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Et_dag.detect_new_files scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-07T11:28:14.981+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Et_dag.detect_new_files scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-07T11:28:14.982+0000] {taskinstance.py:2867} INFO - Starting attempt 5 of 6
+[2025-05-07T11:28:15.003+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): detect_new_files> on 2024-04-21 00:00:00+00:00
+[2025-05-07T11:28:15.009+0000] {standard_task_runner.py:72} INFO - Started process 25364 to run task
+[2025-05-07T11:28:15.012+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Et_dag', 'detect_new_files', 'scheduled__2024-04-21T00:00:00+00:00', '--job-id', '783', '--raw', '--subdir', 'DAGS_FOLDER/ET_dag.py', '--cfg-path', '/tmp/tmp0c1kpy_8']
+[2025-05-07T11:28:15.015+0000] {standard_task_runner.py:105} INFO - Job 783: Subtask detect_new_files
+[2025-05-07T11:28:15.088+0000] {task_command.py:467} INFO - Running <TaskInstance: Et_dag.detect_new_files scheduled__2024-04-21T00:00:00+00:00 [running]> on host 3d46136a9270
+[2025-05-07T11:28:15.200+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Et_dag' AIRFLOW_CTX_TASK_ID='detect_new_files' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-21T00:00:00+00:00'
+[2025-05-07T11:28:15.201+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-07T11:28:15.226+0000] {logging_mixin.py:190} INFO - Aucun nouveau fichier détecté.
+[2025-05-07T11:28:15.226+0000] {python.py:240} INFO - Done. Returned value was: False
+[2025-05-07T11:28:15.252+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-07T11:28:15.253+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=Et_dag, task_id=detect_new_files, run_id=scheduled__2024-04-21T00:00:00+00:00, execution_date=20240421T000000, start_date=20250507T112814, end_date=20250507T112815
+[2025-05-07T11:28:15.307+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-07T11:28:15.345+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-07T11:28:15.348+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-05-08T13:17:38.710+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-08T13:17:38.741+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Et_dag.detect_new_files scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-08T13:17:38.758+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Et_dag.detect_new_files scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-08T13:17:38.759+0000] {taskinstance.py:2867} INFO - Starting attempt 5 of 6
+[2025-05-08T13:17:38.782+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): detect_new_files> on 2024-04-21 00:00:00+00:00
+[2025-05-08T13:17:38.791+0000] {standard_task_runner.py:72} INFO - Started process 33349 to run task
+[2025-05-08T13:17:38.794+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Et_dag', 'detect_new_files', 'scheduled__2024-04-21T00:00:00+00:00', '--job-id', '810', '--raw', '--subdir', 'DAGS_FOLDER/ET_dag.py', '--cfg-path', '/tmp/tmp8scv9z8z']
+[2025-05-08T13:17:38.796+0000] {standard_task_runner.py:105} INFO - Job 810: Subtask detect_new_files
+[2025-05-08T13:17:38.847+0000] {task_command.py:467} INFO - Running <TaskInstance: Et_dag.detect_new_files scheduled__2024-04-21T00:00:00+00:00 [running]> on host 3d46136a9270
+[2025-05-08T13:17:38.980+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Et_dag' AIRFLOW_CTX_TASK_ID='detect_new_files' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-21T00:00:00+00:00'
+[2025-05-08T13:17:38.983+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-08T13:17:39.035+0000] {logging_mixin.py:190} INFO - Aucun nouveau fichier détecté.
+[2025-05-08T13:17:39.035+0000] {python.py:240} INFO - Done. Returned value was: False
+[2025-05-08T13:17:39.059+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-08T13:17:39.060+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=Et_dag, task_id=detect_new_files, run_id=scheduled__2024-04-21T00:00:00+00:00, execution_date=20240421T000000, start_date=20250508T131738, end_date=20250508T131739
+[2025-05-08T13:17:39.099+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-08T13:17:39.147+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-08T13:17:39.151+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

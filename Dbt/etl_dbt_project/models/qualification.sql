@@ -1,7 +1,7 @@
 -- models/transformations/add_qualification.sql
 {{ config(materialized='table') }}
 with base as (
-    select * from {{ source('airflow','base') }}
+    select * from {{ source('airflow','new_base') }}
 ),
 
 qualified as (

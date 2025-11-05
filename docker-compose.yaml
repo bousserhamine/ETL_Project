@@ -1,5 +1,5 @@
 version: '3.8'
-
+#Ce fichier définit l'ensemble des services du projet, leurs images, volumes et ports exposés.
 x-airflow-common: &airflow-common
   build:
     context: .
@@ -61,9 +61,22 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
+  dbt_docs:
+    build: .
+    volumes:
+      - ./Dbt:/opt/airflow/Dbt  
+    working_dir: /opt/airflow/Dbt/etl_dbt_project
+    ports:
+      - "8081:8081"
+    command: >
+      bash -c "
+      dbt docs generate &&
+      dbt docs serve --host 0.0.0.0 --port 8081
+      "
+    restart: unless-stopped 
   airflow-scheduler:
     <<: *airflow-common
-    command: scheduler
+    command: scheulerd
     healthcheck:
       test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$$HOSTNAME\""]
       interval: 30s
@@ -112,6 +125,7 @@ services:
     user: "0:0"
     volumes:
       - ${AIRFLOW_PROJ_DIR:-.}:/sources
+
 
   airflow-cli:
     <<: *airflow-common

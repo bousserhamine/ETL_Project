@@ -1,0 +1,146 @@
+[2025-06-28T09:32:54.181+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-28T09:32:54.203+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Etl_dag.dbt_run_all scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-06-28T09:32:54.213+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Etl_dag.dbt_run_all scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-06-28T09:32:54.214+0000] {taskinstance.py:2867} INFO - Starting attempt 6 of 7
+[2025-06-28T09:32:54.228+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): dbt_run_all> on 2024-04-21 00:00:00+00:00
+[2025-06-28T09:32:54.234+0000] {standard_task_runner.py:72} INFO - Started process 2078 to run task
+[2025-06-28T09:32:54.237+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Etl_dag', 'dbt_run_all', 'scheduled__2024-04-21T00:00:00+00:00', '--job-id', '886', '--raw', '--subdir', 'DAGS_FOLDER/ETL_dag.py', '--cfg-path', '/tmp/tmp3vg12m67']
+[2025-06-28T09:32:54.240+0000] {standard_task_runner.py:105} INFO - Job 886: Subtask dbt_run_all
+[2025-06-28T09:32:54.288+0000] {task_command.py:467} INFO - Running <TaskInstance: Etl_dag.dbt_run_all scheduled__2024-04-21T00:00:00+00:00 [running]> on host fa768165d3f1
+[2025-06-28T09:32:54.368+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Etl_dag' AIRFLOW_CTX_TASK_ID='dbt_run_all' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-21T00:00:00+00:00'
+[2025-06-28T09:32:54.370+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-28T09:32:54.383+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-06-28T09:32:54.384+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '\n        cd /opt/***/Dbt/etl_dbt_project &&         dbt run --select Full_Transformation &&         dbt run --select portefeuille_base &&         dbt run --select portefeuille_empef &&         dbt run --select portefeuille &&         dbt run --select portefeuille_with_rap_cin &&         dbt run --select portefeuille_2 &&         dbt run --select brigade &&         dbt run --select phonning &&         dbt run --select terrain\n        ']
+[2025-06-28T09:32:54.394+0000] {subprocess.py:99} INFO - Output:
+[2025-06-28T09:32:57.122+0000] {subprocess.py:106} INFO - [0m09:32:57  Running with dbt=1.8.7
+[2025-06-28T09:32:57.523+0000] {subprocess.py:106} INFO - [0m09:32:57  Registered adapter: postgres=1.9.0
+[2025-06-28T09:32:59.450+0000] {subprocess.py:106} INFO - [0m09:32:59  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:32:59.454+0000] {subprocess.py:106} INFO - [0m09:32:59
+[2025-06-28T09:32:59.629+0000] {subprocess.py:106} INFO - [0m09:32:59  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:32:59.631+0000] {subprocess.py:106} INFO - [0m09:32:59
+[2025-06-28T09:32:59.663+0000] {subprocess.py:106} INFO - [0m09:32:59  1 of 1 START sql table model ***.Full_Transformation ....................... [RUN]
+[2025-06-28T09:32:59.896+0000] {subprocess.py:106} INFO - [0m09:32:59  1 of 1 OK created sql table model ***.Full_Transformation .................. [[32mSELECT 1034[0m in 0.23s]
+[2025-06-28T09:32:59.919+0000] {subprocess.py:106} INFO - [0m09:32:59
+[2025-06-28T09:32:59.920+0000] {subprocess.py:106} INFO - [0m09:32:59  Finished running 1 table model in 0 hours 0 minutes and 0.46 seconds (0.46s).
+[2025-06-28T09:33:00.023+0000] {subprocess.py:106} INFO - [0m09:33:00
+[2025-06-28T09:33:00.025+0000] {subprocess.py:106} INFO - [0m09:33:00  [32mCompleted successfully[0m
+[2025-06-28T09:33:00.027+0000] {subprocess.py:106} INFO - [0m09:33:00
+[2025-06-28T09:33:00.031+0000] {subprocess.py:106} INFO - [0m09:33:00  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:03.998+0000] {subprocess.py:106} INFO - [0m09:33:03  Running with dbt=1.8.7
+[2025-06-28T09:33:04.341+0000] {subprocess.py:106} INFO - [0m09:33:04  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:06.198+0000] {subprocess.py:106} INFO - [0m09:33:06  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:06.201+0000] {subprocess.py:106} INFO - [0m09:33:06
+[2025-06-28T09:33:06.340+0000] {subprocess.py:106} INFO - [0m09:33:06  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:06.343+0000] {subprocess.py:106} INFO - [0m09:33:06
+[2025-06-28T09:33:06.361+0000] {subprocess.py:106} INFO - [0m09:33:06  1 of 1 START sql table model ***.portefeuille_base ......................... [RUN]
+[2025-06-28T09:33:06.561+0000] {subprocess.py:106} INFO - [0m09:33:06  1 of 1 OK created sql table model ***.portefeuille_base .................... [[32mSELECT 485[0m in 0.20s]
+[2025-06-28T09:33:06.578+0000] {subprocess.py:106} INFO - [0m09:33:06
+[2025-06-28T09:33:06.579+0000] {subprocess.py:106} INFO - [0m09:33:06  Finished running 1 table model in 0 hours 0 minutes and 0.38 seconds (0.38s).
+[2025-06-28T09:33:06.645+0000] {subprocess.py:106} INFO - [0m09:33:06
+[2025-06-28T09:33:06.646+0000] {subprocess.py:106} INFO - [0m09:33:06  [32mCompleted successfully[0m
+[2025-06-28T09:33:06.647+0000] {subprocess.py:106} INFO - [0m09:33:06
+[2025-06-28T09:33:06.648+0000] {subprocess.py:106} INFO - [0m09:33:06  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:09.663+0000] {subprocess.py:106} INFO - [0m09:33:09  Running with dbt=1.8.7
+[2025-06-28T09:33:10.017+0000] {subprocess.py:106} INFO - [0m09:33:10  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:11.713+0000] {subprocess.py:106} INFO - [0m09:33:11  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:11.716+0000] {subprocess.py:106} INFO - [0m09:33:11
+[2025-06-28T09:33:11.836+0000] {subprocess.py:106} INFO - [0m09:33:11  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:11.837+0000] {subprocess.py:106} INFO - [0m09:33:11
+[2025-06-28T09:33:11.849+0000] {subprocess.py:106} INFO - [0m09:33:11  1 of 1 START sql table model ***.portefeuille_empef ........................ [RUN]
+[2025-06-28T09:33:12.001+0000] {subprocess.py:106} INFO - [0m09:33:12  1 of 1 OK created sql table model ***.portefeuille_empef ................... [[32mSELECT 104[0m in 0.15s]
+[2025-06-28T09:33:12.027+0000] {subprocess.py:106} INFO - [0m09:33:12
+[2025-06-28T09:33:12.028+0000] {subprocess.py:106} INFO - [0m09:33:12  Finished running 1 table model in 0 hours 0 minutes and 0.31 seconds (0.31s).
+[2025-06-28T09:33:12.101+0000] {subprocess.py:106} INFO - [0m09:33:12
+[2025-06-28T09:33:12.102+0000] {subprocess.py:106} INFO - [0m09:33:12  [32mCompleted successfully[0m
+[2025-06-28T09:33:12.103+0000] {subprocess.py:106} INFO - [0m09:33:12
+[2025-06-28T09:33:12.103+0000] {subprocess.py:106} INFO - [0m09:33:12  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:15.141+0000] {subprocess.py:106} INFO - [0m09:33:15  Running with dbt=1.8.7
+[2025-06-28T09:33:15.447+0000] {subprocess.py:106} INFO - [0m09:33:15  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:17.637+0000] {subprocess.py:106} INFO - [0m09:33:17  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:17.641+0000] {subprocess.py:106} INFO - [0m09:33:17
+[2025-06-28T09:33:17.823+0000] {subprocess.py:106} INFO - [0m09:33:17  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:17.824+0000] {subprocess.py:106} INFO - [0m09:33:17
+[2025-06-28T09:33:17.837+0000] {subprocess.py:106} INFO - [0m09:33:17  1 of 1 START sql table model ***.portefeuille .............................. [RUN]
+[2025-06-28T09:33:18.134+0000] {subprocess.py:106} INFO - [0m09:33:18  1 of 1 OK created sql table model ***.portefeuille ......................... [[32mSELECT 381[0m in 0.29s]
+[2025-06-28T09:33:18.213+0000] {subprocess.py:106} INFO - [0m09:33:18
+[2025-06-28T09:33:18.215+0000] {subprocess.py:106} INFO - [0m09:33:18  Finished running 1 table model in 0 hours 0 minutes and 0.57 seconds (0.57s).
+[2025-06-28T09:33:18.476+0000] {subprocess.py:106} INFO - [0m09:33:18
+[2025-06-28T09:33:18.482+0000] {subprocess.py:106} INFO - [0m09:33:18  [32mCompleted successfully[0m
+[2025-06-28T09:33:18.484+0000] {subprocess.py:106} INFO - [0m09:33:18
+[2025-06-28T09:33:18.486+0000] {subprocess.py:106} INFO - [0m09:33:18  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:22.543+0000] {subprocess.py:106} INFO - [0m09:33:22  Running with dbt=1.8.7
+[2025-06-28T09:33:22.970+0000] {subprocess.py:106} INFO - [0m09:33:22  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:24.790+0000] {subprocess.py:106} INFO - [0m09:33:24  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:24.793+0000] {subprocess.py:106} INFO - [0m09:33:24
+[2025-06-28T09:33:24.942+0000] {subprocess.py:106} INFO - [0m09:33:24  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:24.943+0000] {subprocess.py:106} INFO - [0m09:33:24
+[2025-06-28T09:33:24.956+0000] {subprocess.py:106} INFO - [0m09:33:24  1 of 1 START sql table model ***.portefeuille_with_rap_cin ................. [RUN]
+[2025-06-28T09:33:25.153+0000] {subprocess.py:106} INFO - [0m09:33:25  1 of 1 OK created sql table model ***.portefeuille_with_rap_cin ............ [[32mSELECT 13[0m in 0.19s]
+[2025-06-28T09:33:25.173+0000] {subprocess.py:106} INFO - [0m09:33:25
+[2025-06-28T09:33:25.174+0000] {subprocess.py:106} INFO - [0m09:33:25  Finished running 1 table model in 0 hours 0 minutes and 0.38 seconds (0.38s).
+[2025-06-28T09:33:25.260+0000] {subprocess.py:106} INFO - [0m09:33:25
+[2025-06-28T09:33:25.261+0000] {subprocess.py:106} INFO - [0m09:33:25  [32mCompleted successfully[0m
+[2025-06-28T09:33:25.262+0000] {subprocess.py:106} INFO - [0m09:33:25
+[2025-06-28T09:33:25.263+0000] {subprocess.py:106} INFO - [0m09:33:25  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:28.269+0000] {subprocess.py:106} INFO - [0m09:33:28  Running with dbt=1.8.7
+[2025-06-28T09:33:28.657+0000] {subprocess.py:106} INFO - [0m09:33:28  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:30.534+0000] {subprocess.py:106} INFO - [0m09:33:30  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:30.538+0000] {subprocess.py:106} INFO - [0m09:33:30
+[2025-06-28T09:33:30.679+0000] {subprocess.py:106} INFO - [0m09:33:30  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:30.681+0000] {subprocess.py:106} INFO - [0m09:33:30
+[2025-06-28T09:33:30.696+0000] {subprocess.py:106} INFO - [0m09:33:30  1 of 1 START sql table model ***.portefeuille_2 ............................ [RUN]
+[2025-06-28T09:33:30.906+0000] {subprocess.py:106} INFO - [0m09:33:30  1 of 1 OK created sql table model ***.portefeuille_2 ....................... [[32mSELECT 368[0m in 0.20s]
+[2025-06-28T09:33:30.944+0000] {subprocess.py:106} INFO - [0m09:33:30
+[2025-06-28T09:33:30.945+0000] {subprocess.py:106} INFO - [0m09:33:30  Finished running 1 table model in 0 hours 0 minutes and 0.40 seconds (0.40s).
+[2025-06-28T09:33:31.025+0000] {subprocess.py:106} INFO - [0m09:33:31
+[2025-06-28T09:33:31.026+0000] {subprocess.py:106} INFO - [0m09:33:31  [32mCompleted successfully[0m
+[2025-06-28T09:33:31.027+0000] {subprocess.py:106} INFO - [0m09:33:31
+[2025-06-28T09:33:31.027+0000] {subprocess.py:106} INFO - [0m09:33:31  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:34.071+0000] {subprocess.py:106} INFO - [0m09:33:34  Running with dbt=1.8.7
+[2025-06-28T09:33:34.463+0000] {subprocess.py:106} INFO - [0m09:33:34  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:36.491+0000] {subprocess.py:106} INFO - [0m09:33:36  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:36.495+0000] {subprocess.py:106} INFO - [0m09:33:36
+[2025-06-28T09:33:36.646+0000] {subprocess.py:106} INFO - [0m09:33:36  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:36.646+0000] {subprocess.py:106} INFO - [0m09:33:36
+[2025-06-28T09:33:36.676+0000] {subprocess.py:106} INFO - [0m09:33:36  1 of 1 START sql table model ***.brigade ................................... [RUN]
+[2025-06-28T09:33:36.910+0000] {subprocess.py:106} INFO - [0m09:33:36  1 of 1 OK created sql table model ***.brigade .............................. [[32mSELECT 86[0m in 0.23s]
+[2025-06-28T09:33:36.930+0000] {subprocess.py:106} INFO - [0m09:33:36
+[2025-06-28T09:33:36.930+0000] {subprocess.py:106} INFO - [0m09:33:36  Finished running 1 table model in 0 hours 0 minutes and 0.43 seconds (0.43s).
+[2025-06-28T09:33:37.017+0000] {subprocess.py:106} INFO - [0m09:33:37
+[2025-06-28T09:33:37.019+0000] {subprocess.py:106} INFO - [0m09:33:37  [32mCompleted successfully[0m
+[2025-06-28T09:33:37.020+0000] {subprocess.py:106} INFO - [0m09:33:37
+[2025-06-28T09:33:37.021+0000] {subprocess.py:106} INFO - [0m09:33:37  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:40.366+0000] {subprocess.py:106} INFO - [0m09:33:40  Running with dbt=1.8.7
+[2025-06-28T09:33:40.789+0000] {subprocess.py:106} INFO - [0m09:33:40  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:44.021+0000] {subprocess.py:106} INFO - [0m09:33:44  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:44.027+0000] {subprocess.py:106} INFO - [0m09:33:44
+[2025-06-28T09:33:44.211+0000] {subprocess.py:106} INFO - [0m09:33:44  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:44.212+0000] {subprocess.py:106} INFO - [0m09:33:44
+[2025-06-28T09:33:44.228+0000] {subprocess.py:106} INFO - [0m09:33:44  1 of 1 START sql table model ***.phonning .................................. [RUN]
+[2025-06-28T09:33:44.497+0000] {subprocess.py:106} INFO - [0m09:33:44  1 of 1 OK created sql table model ***.phonning ............................. [[32mSELECT 260[0m in 0.26s]
+[2025-06-28T09:33:44.524+0000] {subprocess.py:106} INFO - [0m09:33:44
+[2025-06-28T09:33:44.525+0000] {subprocess.py:106} INFO - [0m09:33:44  Finished running 1 table model in 0 hours 0 minutes and 0.50 seconds (0.50s).
+[2025-06-28T09:33:44.614+0000] {subprocess.py:106} INFO - [0m09:33:44
+[2025-06-28T09:33:44.615+0000] {subprocess.py:106} INFO - [0m09:33:44  [32mCompleted successfully[0m
+[2025-06-28T09:33:44.616+0000] {subprocess.py:106} INFO - [0m09:33:44
+[2025-06-28T09:33:44.618+0000] {subprocess.py:106} INFO - [0m09:33:44  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:47.962+0000] {subprocess.py:106} INFO - [0m09:33:47  Running with dbt=1.8.7
+[2025-06-28T09:33:48.391+0000] {subprocess.py:106} INFO - [0m09:33:48  Registered adapter: postgres=1.9.0
+[2025-06-28T09:33:50.988+0000] {subprocess.py:106} INFO - [0m09:33:50  Found 10 models, 9 data tests, 6 seeds, 11 sources, 545 macros
+[2025-06-28T09:33:50.992+0000] {subprocess.py:106} INFO - [0m09:33:50
+[2025-06-28T09:33:51.182+0000] {subprocess.py:106} INFO - [0m09:33:51  Concurrency: 1 threads (target='dev')
+[2025-06-28T09:33:51.185+0000] {subprocess.py:106} INFO - [0m09:33:51
+[2025-06-28T09:33:51.204+0000] {subprocess.py:106} INFO - [0m09:33:51  1 of 1 START sql table model ***.terrain ................................... [RUN]
+[2025-06-28T09:33:51.454+0000] {subprocess.py:106} INFO - [0m09:33:51  1 of 1 OK created sql table model ***.terrain .............................. [[32mSELECT 21[0m in 0.24s]
+[2025-06-28T09:33:51.481+0000] {subprocess.py:106} INFO - [0m09:33:51
+[2025-06-28T09:33:51.482+0000] {subprocess.py:106} INFO - [0m09:33:51  Finished running 1 table model in 0 hours 0 minutes and 0.49 seconds (0.49s).
+[2025-06-28T09:33:51.582+0000] {subprocess.py:106} INFO - [0m09:33:51
+[2025-06-28T09:33:51.584+0000] {subprocess.py:106} INFO - [0m09:33:51  [32mCompleted successfully[0m
+[2025-06-28T09:33:51.586+0000] {subprocess.py:106} INFO - [0m09:33:51
+[2025-06-28T09:33:51.587+0000] {subprocess.py:106} INFO - [0m09:33:51  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-06-28T09:33:52.022+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-06-28T09:33:52.059+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-28T09:33:52.060+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=Etl_dag, task_id=dbt_run_all, run_id=scheduled__2024-04-21T00:00:00+00:00, execution_date=20240421T000000, start_date=20250628T093254, end_date=20250628T093352
+[2025-06-28T09:33:52.118+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-28T09:33:52.156+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-28T09:33:52.159+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

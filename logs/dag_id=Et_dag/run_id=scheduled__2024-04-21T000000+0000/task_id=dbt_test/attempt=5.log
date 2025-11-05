@@ -1,0 +1,50 @@
+[2025-05-08T13:18:03.614+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-08T13:18:03.640+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Et_dag.dbt_test scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-08T13:18:03.652+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Et_dag.dbt_test scheduled__2024-04-21T00:00:00+00:00 [queued]>
+[2025-05-08T13:18:03.653+0000] {taskinstance.py:2867} INFO - Starting attempt 5 of 6
+[2025-05-08T13:18:03.671+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): dbt_test> on 2024-04-21 00:00:00+00:00
+[2025-05-08T13:18:03.687+0000] {standard_task_runner.py:72} INFO - Started process 33427 to run task
+[2025-05-08T13:18:03.691+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Et_dag', 'dbt_test', 'scheduled__2024-04-21T00:00:00+00:00', '--job-id', '813', '--raw', '--subdir', 'DAGS_FOLDER/ET_dag.py', '--cfg-path', '/tmp/tmpgi0gug9j']
+[2025-05-08T13:18:03.693+0000] {standard_task_runner.py:105} INFO - Job 813: Subtask dbt_test
+[2025-05-08T13:18:03.774+0000] {task_command.py:467} INFO - Running <TaskInstance: Et_dag.dbt_test scheduled__2024-04-21T00:00:00+00:00 [running]> on host 3d46136a9270
+[2025-05-08T13:18:03.858+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Et_dag' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2024-04-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-21T00:00:00+00:00'
+[2025-05-08T13:18:03.859+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-05-08T13:18:03.874+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-05-08T13:18:03.879+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/Dbt/etl_dbt_project && dbt test']
+[2025-05-08T13:18:03.888+0000] {subprocess.py:99} INFO - Output:
+[2025-05-08T13:18:06.284+0000] {subprocess.py:106} INFO - [0m13:18:06  Running with dbt=1.8.7
+[2025-05-08T13:18:06.579+0000] {subprocess.py:106} INFO - [0m13:18:06  Registered adapter: postgres=1.9.0
+[2025-05-08T13:18:08.061+0000] {subprocess.py:106} INFO - [0m13:18:08  Found 2 seeds, 1 model, 9 data tests, 7 sources, 545 macros
+[2025-05-08T13:18:08.065+0000] {subprocess.py:106} INFO - [0m13:18:08
+[2025-05-08T13:18:08.161+0000] {subprocess.py:106} INFO - [0m13:18:08  Concurrency: 1 threads (target='dev')
+[2025-05-08T13:18:08.161+0000] {subprocess.py:106} INFO - [0m13:18:08
+[2025-05-08T13:18:08.176+0000] {subprocess.py:106} INFO - [0m13:18:08  1 of 9 START test accepted_values_Full_Transformation_csp_prd__EMPHF__Auto_LOA__Auto_CLASS__OPB_DISPO__FONCT__EMPEF__Sogeconso  [RUN]
+[2025-05-08T13:18:08.264+0000] {subprocess.py:106} INFO - [0m13:18:08  1 of 9 PASS accepted_values_Full_Transformation_csp_prd__EMPHF__Auto_LOA__Auto_CLASS__OPB_DISPO__FONCT__EMPEF__Sogeconso  [[32mPASS[0m in 0.09s]
+[2025-05-08T13:18:08.267+0000] {subprocess.py:106} INFO - [0m13:18:08  2 of 9 START test accepted_values_Full_Transformation_ctx__CTX__ ............... [RUN]
+[2025-05-08T13:18:08.307+0000] {subprocess.py:106} INFO - [0m13:18:08  2 of 9 PASS accepted_values_Full_Transformation_ctx__CTX__ ..................... [[32mPASS[0m in 0.04s]
+[2025-05-08T13:18:08.309+0000] {subprocess.py:106} INFO - [0m13:18:08  3 of 9 START test accepted_values_Full_Transformation_flag_pcx__PCX__ .......... [RUN]
+[2025-05-08T13:18:08.351+0000] {subprocess.py:106} INFO - [0m13:18:08  3 of 9 PASS accepted_values_Full_Transformation_flag_pcx__PCX__ ................ [[32mPASS[0m in 0.04s]
+[2025-05-08T13:18:08.353+0000] {subprocess.py:106} INFO - [0m13:18:08  4 of 9 START test accepted_values_Full_Transformation_flag_reechelonnement__Oui__  [RUN]
+[2025-05-08T13:18:08.397+0000] {subprocess.py:106} INFO - [0m13:18:08  4 of 9 PASS accepted_values_Full_Transformation_flag_reechelonnement__Oui__ .... [[32mPASS[0m in 0.04s]
+[2025-05-08T13:18:08.400+0000] {subprocess.py:106} INFO - [0m13:18:08  5 of 9 START test accepted_values_Full_Transformation_segment__PM__PP__EMPHF__FONCT__OPB_DISPO__EMPEF__Sogeconso  [RUN]
+[2025-05-08T13:18:08.441+0000] {subprocess.py:106} INFO - [0m13:18:08  5 of 9 PASS accepted_values_Full_Transformation_segment__PM__PP__EMPHF__FONCT__OPB_DISPO__EMPEF__Sogeconso  [[32mPASS[0m in 0.04s]
+[2025-05-08T13:18:08.443+0000] {subprocess.py:106} INFO - [0m13:18:08  6 of 9 START test accepted_values_Full_Transformation_sinistre__Sinistre__ ..... [RUN]
+[2025-05-08T13:18:08.539+0000] {subprocess.py:106} INFO - [0m13:18:08  6 of 9 PASS accepted_values_Full_Transformation_sinistre__Sinistre__ ........... [[32mPASS[0m in 0.09s]
+[2025-05-08T13:18:08.542+0000] {subprocess.py:106} INFO - [0m13:18:08  7 of 9 START test accepted_values_Full_Transformation_spp__SPP__ ............... [RUN]
+[2025-05-08T13:18:08.596+0000] {subprocess.py:106} INFO - [0m13:18:08  7 of 9 PASS accepted_values_Full_Transformation_spp__SPP__ ..................... [[32mPASS[0m in 0.05s]
+[2025-05-08T13:18:08.600+0000] {subprocess.py:106} INFO - [0m13:18:08  8 of 9 START test accepted_values_Full_Transformation_verif_bagatelle__Bagatelle__IMP  [RUN]
+[2025-05-08T13:18:08.643+0000] {subprocess.py:106} INFO - [0m13:18:08  8 of 9 PASS accepted_values_Full_Transformation_verif_bagatelle__Bagatelle__IMP  [[32mPASS[0m in 0.04s]
+[2025-05-08T13:18:08.646+0000] {subprocess.py:106} INFO - [0m13:18:08  9 of 9 START test not_null_Full_Transformation_segment ......................... [RUN]
+[2025-05-08T13:18:08.687+0000] {subprocess.py:106} INFO - [0m13:18:08  9 of 9 PASS not_null_Full_Transformation_segment ............................... [[32mPASS[0m in 0.04s]
+[2025-05-08T13:18:08.702+0000] {subprocess.py:106} INFO - [0m13:18:08
+[2025-05-08T13:18:08.703+0000] {subprocess.py:106} INFO - [0m13:18:08  Finished running 9 data tests in 0 hours 0 minutes and 0.64 seconds (0.64s).
+[2025-05-08T13:18:08.768+0000] {subprocess.py:106} INFO - [0m13:18:08
+[2025-05-08T13:18:08.769+0000] {subprocess.py:106} INFO - [0m13:18:08  [32mCompleted successfully[0m
+[2025-05-08T13:18:08.770+0000] {subprocess.py:106} INFO - [0m13:18:08
+[2025-05-08T13:18:08.770+0000] {subprocess.py:106} INFO - [0m13:18:08  Done. PASS=9 WARN=0 ERROR=0 SKIP=0 TOTAL=9
+[2025-05-08T13:18:14.551+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-05-08T13:18:14.576+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-05-08T13:18:14.576+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=Et_dag, task_id=dbt_test, run_id=scheduled__2024-04-21T00:00:00+00:00, execution_date=20240421T000000, start_date=20250508T131803, end_date=20250508T131814
+[2025-05-08T13:18:14.616+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-08T13:18:14.642+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-08T13:18:14.651+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

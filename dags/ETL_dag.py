@@ -121,7 +121,7 @@ with DAG(
         bash_command='cd /opt/airflow/Dbt/etl_dbt_project && dbt test'
     )
 
-   
+
     export_task = PythonOperator(
         task_id='run_export_script',
         python_callable=run_export_script,

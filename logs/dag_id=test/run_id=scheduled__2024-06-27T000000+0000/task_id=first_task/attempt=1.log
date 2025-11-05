@@ -1,0 +1,21 @@
+[2025-04-09T10:57:20.823+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-09T10:57:20.877+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test.first_task scheduled__2024-06-27T00:00:00+00:00 [queued]>
+[2025-04-09T10:57:20.903+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test.first_task scheduled__2024-06-27T00:00:00+00:00 [queued]>
+[2025-04-09T10:57:20.904+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 6
+[2025-04-09T10:57:20.987+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): first_task> on 2024-06-27 00:00:00+00:00
+[2025-04-09T10:57:20.994+0000] {standard_task_runner.py:72} INFO - Started process 3897 to run task
+[2025-04-09T10:57:20.998+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'test', 'first_task', 'scheduled__2024-06-27T00:00:00+00:00', '--job-id', '177', '--raw', '--subdir', 'DAGS_FOLDER/Second_DAG.py', '--cfg-path', '/tmp/tmpeo5i6m0n']
+[2025-04-09T10:57:21.004+0000] {standard_task_runner.py:105} INFO - Job 177: Subtask first_task
+[2025-04-09T10:57:21.124+0000] {task_command.py:467} INFO - Running <TaskInstance: test.first_task scheduled__2024-06-27T00:00:00+00:00 [running]> on host cd5f85beaf56
+[2025-04-09T10:57:21.261+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-27T00:00:00+00:00'
+[2025-04-09T10:57:21.262+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-09T10:57:21.289+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-09T10:57:21.293+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo hello world , this is my first BashOperator commande ']
+[2025-04-09T10:57:21.302+0000] {subprocess.py:99} INFO - Output:
+[2025-04-09T10:57:21.304+0000] {subprocess.py:106} INFO - hello world , this is my first BashOperator commande
+[2025-04-09T10:57:21.304+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-09T10:57:21.333+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-09T10:57:21.334+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=test, task_id=first_task, run_id=scheduled__2024-06-27T00:00:00+00:00, execution_date=20240627T000000, start_date=20250409T105720, end_date=20250409T105721
+[2025-04-09T10:57:21.379+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-09T10:57:21.396+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-09T10:57:21.398+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

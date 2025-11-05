@@ -1,0 +1,18 @@
+[2025-04-11T21:36:57.143+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-11T21:36:57.191+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyop_test2.greent scheduled__2025-01-25T00:00:00+00:00 [queued]>
+[2025-04-11T21:36:57.232+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyop_test2.greent scheduled__2025-01-25T00:00:00+00:00 [queued]>
+[2025-04-11T21:36:57.248+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 6
+[2025-04-11T21:36:57.320+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): greent> on 2025-01-25 00:00:00+00:00
+[2025-04-11T21:36:57.329+0000] {standard_task_runner.py:72} INFO - Started process 3231 to run task
+[2025-04-11T21:36:57.341+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'pyop_test2', 'greent', 'scheduled__2025-01-25T00:00:00+00:00', '--job-id', '1622', '--raw', '--subdir', 'DAGS_FOLDER/PythonOP_Dag.py', '--cfg-path', '/tmp/tmpwabvh_hr']
+[2025-04-11T21:36:57.346+0000] {standard_task_runner.py:105} INFO - Job 1622: Subtask greent
+[2025-04-11T21:36:57.446+0000] {task_command.py:467} INFO - Running <TaskInstance: pyop_test2.greent scheduled__2025-01-25T00:00:00+00:00 [running]> on host 565f52718e6d
+[2025-04-11T21:36:58.017+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyop_test2' AIRFLOW_CTX_TASK_ID='greent' AIRFLOW_CTX_EXECUTION_DATE='2025-01-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-25T00:00:00+00:00'
+[2025-04-11T21:36:58.021+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-11T21:36:58.052+0000] {logging_mixin.py:190} INFO - Here We Go , I am {name} and i am {age}.
+[2025-04-11T21:36:58.053+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-11T21:36:58.074+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-11T21:36:58.076+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=pyop_test2, task_id=greent, run_id=scheduled__2025-01-25T00:00:00+00:00, execution_date=20250125T000000, start_date=20250411T213657, end_date=20250411T213658
+[2025-04-11T21:36:58.137+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-11T21:36:58.180+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-11T21:36:58.183+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -2,8 +2,20 @@ version: 2
 
 models:
   - name: Full_Transformation
-    description: Final transformed data model combining multiple services
+    description: Full transformed data model combining multiple services and Data bases
     columns:
+      - name: n_dos
+        description: " Customer by number of the files."
+        tests:
+          - not_null
+          - unique
+
+      - name: num_cin
+        description: "Customer CIN "
+        tests:
+          - not_null
+          - unique
+
       - name: csp_prd
         tests:
           - accepted_values:
