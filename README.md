@@ -13,6 +13,9 @@ The solution replaces manual data handling with a robust, automated architecture
 
 The pipeline is built on a modern data stack, fully containerized for consistency across environments.
 
+<img width="983" height="482" alt="image" src="https://github.com/user-attachments/assets/ee1a409f-1f7d-4233-b187-b663b4382dce" />
+
+
 
 Orchestration	( Apache Airflow )	: Schedules DAGs and manages dependencies between extraction and transformation tasks.
 Extraction	( Python ) :	Custom scripts to pull data from APIs/Databases and load into the staging area.
